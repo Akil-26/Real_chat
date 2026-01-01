@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       theme: ChatAppTheme.lightTheme,
       darkTheme: ChatAppTheme.darkTheme,
       themeMode: ThemeMode.light,
-      home: const ChatListScreen(),
+      home: const LoginScreen(),
     );
   }
 }
